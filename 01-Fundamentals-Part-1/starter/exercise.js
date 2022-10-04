@@ -47,6 +47,15 @@ console.log(description1)
 const description = `My country is ${country}, and is in ${continent} it has ${population} million and its people speak ${language}`
 console.log(description)
 
+if(population > 33){
+    console.log(
+    `${country} is above average`
+    );
+}
+else{
+    console.log(
+        `${country}'s is ${33 - population} below average`)
+}
 // let markWeight = 78;
 // let markHeight = 1.69;
 // let johnWeight = 92;
