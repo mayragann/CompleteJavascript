@@ -62,3 +62,8 @@
 
 // console.log(ageJonas < ageSarah);
 // console.log(ageSarah >= 18);
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020
+console.log(ageJonas, ageSarah)
