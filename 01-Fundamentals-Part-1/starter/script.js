@@ -63,7 +63,13 @@
 // console.log(ageJonas < ageSarah);
 // console.log(ageSarah >= 18);
 
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2020
-console.log(ageJonas, ageSarah)
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ", a " +  (year - birthYear) + ' years old ' + job + '!';
+console.log(jonas)
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old and work as a ${job}!`;
+console.log(jonasNew)
