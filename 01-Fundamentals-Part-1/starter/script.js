@@ -13,7 +13,7 @@
 
 
 
-// dynamic typing example
+//!dynamic typing example
 // let javascriptIsFun = true;
 // console.log(typeof true);
 // console.log(typeof 1);
@@ -23,8 +23,8 @@
 
 // javascriptIsFun = 'YES!'
 // console.log(javascriptIsFun)
-// // dynamic typing example
-// //undefined example
+// !dynamic typing example
+// !undefined example
 // let year;
 // console.log(year)
 // console.log(typeof year)
@@ -38,20 +38,20 @@
 // const birthYear = 1991;
 // // birthYear = 1990;
 
-//math operators
+//!math operators
 // const now = 2037;
 // const ageJonas = now - 1991;
 // const ageSarah = now - 2020
 // console.log(ageJonas, ageSarah)
 
 // console.log(ageJonas * 2, ageJonas / 10, 2**3)
-// //2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+//?2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
 // const firstName = 'Jonas'
 // const lastName = 'Oddname'
 // console.log(firstName + ' ' +lastName)
 
-// //assignment operators
+// !assignment operators
 // let x = 10 + 5; //15
 // x += 10; // x = x + 10
 // x *= 4; // x = x * 4
@@ -76,7 +76,7 @@
 
 // const age = 15;
 
-// //controled structure
+//!controled structure
 // if(age>= 18){
 //     console.log(
 //     'Sara can start driving 🤣'
@@ -96,3 +96,24 @@
 //     century = 21;
 // }
 // console.log(century)
+
+
+// //!type conversion
+// const inputYear = '1991';
+// //*Number converts string-numbers to numbers
+// //NaN is when you use Number to try to convert non string-numbers over to numbers
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18)
+// //*converts over to string
+// console.log(String(23), 23)
+
+// //! type coercion
+// //*will convert one value to a different value + operator triggers coercion 
+// //* into a string happens automatically
+// console.log("I am " + 23 + ' Years old;')
+// //? - operator will trigger the opposite of forcing string to numbers
+// console.log('23 ' - '10' - 3);
+
+let n = '1' + 1; //? will turn out to be the string 11
+n = n - 1; //? this will take the string 11 and convert it to number 11 because of subtraction 
+console.log(n)
