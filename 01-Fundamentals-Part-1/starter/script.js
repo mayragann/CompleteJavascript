@@ -147,3 +147,26 @@
 //         "Height UNDEFINED"
 //     )
 // }
+
+// const age = 18; //! single = is assignment
+// if(age === 18) console.log("Hello Adult (Strict)"); //! equality operator both sides need to be exact
+// //! == doesn't have to exact loose equality operator for clean code avoid this as much as possible
+// if(age == "18") console.log("Hello Adult(loose)");
+
+// //! promp function
+// const favorite = Number(prompt("What is your favorite number"));
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if (favorite === 23){ //? will be converted to number
+//     console.log("Cool! 23 is amazing number");
+// } else if (favorite === 7){
+//     console.log("Cool! 7 is amazing number too");
+// }
+// else{
+//     console.log('Not any cool numbers!');
+// }
+
+// if(favorite !== 23){
+//     console.log("Why not 23?");
+// }
