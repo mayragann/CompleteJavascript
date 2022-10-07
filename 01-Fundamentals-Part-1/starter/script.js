@@ -114,6 +114,36 @@
 // //? - operator will trigger the opposite of forcing string to numbers
 // console.log('23 ' - '10' - 3);
 
-let n = '1' + 1; //? will turn out to be the string 11
-n = n - 1; //? this will take the string 11 and convert it to number 11 because of subtraction 
-console.log(n)
+// let n = '1' + 1; //? will turn out to be the string 11
+// n = n - 1; //? this will take the string 11 and convert it to number 11 because of subtraction 
+// console.log(n)
+
+//! 5 falsy values : 0, '', undefined, null, NaN-> not intitial false but when converted to boolean will convert to false
+//* everything else will be true when attempted to convert over into boolean
+
+// console.log(Boolean(0))
+// console.log(Boolean(undefined))
+// console.log(Boolean('Jonas'))
+// console.log(Boolean(''))
+// console.log(Boolean({})) //? empty object
+
+// const money = 0; //? falsey value
+// if (money){ //?because money has no money - 0 number will convert too boolean(truthy and falsy value) 
+//     console.log(
+//         "Don't spend it all"
+//     )
+// }
+// else{
+//     console.log("You should get a job")
+// }
+
+// let height; //? empty so it's a falsy
+// if(height){
+//     console.log(
+//         "Tag is defined"
+//     )
+// } else {
+//     console.log(
+//         "Height UNDEFINED"
+//     )
+// }
