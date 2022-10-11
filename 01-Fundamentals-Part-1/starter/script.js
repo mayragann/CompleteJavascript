@@ -170,3 +170,26 @@
 // if(favorite !== 23){
 //     console.log("Why not 23?");
 // }
+
+//! Boolean Logic is not specific only for Javascript
+
+// const hasDriversLicense = true; //A
+// const hasGoodVision = false; //B
+// const isTired = false;
+
+// console.log(hasDriversLicense && hasGoodVision) //false
+// console.log(hasDriversLicense || hasGoodVision) //true
+// console.log(!hasGoodVision) //true ! change operator
+
+// if(hasDriversLicense && !hasGoodVision){
+//     console.log("Sarah can drive");
+// } else{
+//     console.log("Someone else could drive")
+// }
+// console.log(hasDriversLicense && hasGoodVision && !isTired)
+
+// if(hasDriversLicense && !hasGoodVision && !isTired){
+//     console.log("Sarah can drive");
+// } else{
+//     console.log("Someone else could drive")
+// }

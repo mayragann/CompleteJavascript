@@ -112,4 +112,24 @@ let population = 326;
 // 8. Reflect on why we should use the === operator and type conversion in this
 // situation
 
+//1.Calculate Average Score for each team-Need to find sum of all numbers
+const dolphinSumOne = (96 + 10 + 89)/3
+const koalaSumOne = (88 + 91 + 110)/3
+const dolphinSumTwo = (97 + 112 + 101)/3
+const koalaSumTwo = (109 + 95 + 123)/3
+const dolphinSumThree = (97 + 112 + 101)/3
+const koalaSumThree = (109 + 95 + 106)/3
+const minScore = 100;
+console.log(dolphinSumThree)
+console.log(koalaSumThree)
+
+if(dolphinSumThree > koalaSumThree && minScore){
+    console.log("Dolphins Have higher score")
+} else if(dolphinSumThree === koalaSumThree && minScore){
+    console.log("Same Score")
+} else if(dolphinSumThree < koalaSumThree && minScore){
+    console.log("Koala wins")
+}else{
+    console.log("No one wins!")
+}
 
