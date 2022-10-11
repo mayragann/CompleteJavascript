@@ -243,3 +243,12 @@
 // else{
 //     console.log('Not valid day')
 // }
+
+//! Expression vs Statements
+//? 3+4 is an expression because it produces a value
+//? 1991 is a value too so it's an expresion--true && !False, all these expression
+//* statement is a piece of code to be executed does not provide value
+//declares actions but does not declare value if/else, but the expression is the string-like complete statement
+// if ( 23 > 10){
+//     const str = '23 is bigger'
+// }
