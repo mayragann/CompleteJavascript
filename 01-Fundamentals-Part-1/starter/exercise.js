@@ -113,23 +113,46 @@ let population = 326;
 // situation
 
 //1.Calculate Average Score for each team-Need to find sum of all numbers
-const dolphinSumOne = (96 + 10 + 89)/3
-const koalaSumOne = (88 + 91 + 110)/3
-const dolphinSumTwo = (97 + 112 + 101)/3
-const koalaSumTwo = (109 + 95 + 123)/3
-const dolphinSumThree = (97 + 112 + 101)/3
-const koalaSumThree = (109 + 95 + 106)/3
-const minScore = 100;
-console.log(dolphinSumThree)
-console.log(koalaSumThree)
+// const dolphinSumOne = (96 + 10 + 89)/3
+// const koalaSumOne = (88 + 91 + 110)/3
+// const dolphinSumTwo = (97 + 112 + 101)/3
+// const koalaSumTwo = (109 + 95 + 123)/3
+// const dolphinSumThree = (97 + 112 + 101)/3
+// const koalaSumThree = (109 + 95 + 106)/3
+// const minScore = 100;
+// console.log(dolphinSumThree)
+// console.log(koalaSumThree)
 
-if(dolphinSumThree > koalaSumThree && minScore){
-    console.log("Dolphins Have higher score")
-} else if(dolphinSumThree === koalaSumThree && minScore){
-    console.log("Same Score")
-} else if(dolphinSumThree < koalaSumThree && minScore){
-    console.log("Koala wins")
-}else{
-    console.log("No one wins!")
-}
+// if(dolphinSumThree > koalaSumThree && minScore){
+//     console.log("Dolphins Have higher score")
+// } else if(dolphinSumThree === koalaSumThree && minScore){
+//     console.log("Same Score")
+// } else if(dolphinSumThree < koalaSumThree && minScore){
+//     console.log("Koala wins")
+// }else{
+//     console.log("No one wins!")
+// }
 
+// const language = prompt("what is your countries language")
+
+// switch(language){
+//     case 'chinese':
+//     case 'mandarin':
+//         console.log('MOST number of native speakers!')
+//         break;
+//     case 'spanish':
+//         console.log('2nd place in number of native speakers');
+//         break;
+//     case 'english':
+//         console.log('3rd place')
+//         break;
+//     case 'hindi':
+//         console.log('4th place');
+//         break;
+//     case 'arabic':
+//         console.log("5th most spoken language");
+//         break;
+//     default:
+//         console.log("Great language too!")
+    
+// }
