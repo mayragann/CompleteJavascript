@@ -193,3 +193,53 @@
 // } else{
 //     console.log("Someone else could drive")
 // }
+
+//! Switch statment
+//? design for equality, not comparison
+
+//const day = prompt("What is your favorite day")
+
+// switch(day){
+//     case 'monday': //day === 'monday'
+//         console.log('Plan Course Structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday': //day === 'tuesday'
+//         console.log('Prepare Vids');
+//         console.log('Hit the gym');
+//         break;
+//     case 'wednesday': //day === 'wednesday'
+//     case 'thursday': //day === 'wednesday'
+//         console.log('Write code examples');
+//         break
+//     case 'friday':
+//         console.log("Record Videos");
+//         break;
+//     case 'saturday':
+//     case 'sunday' :
+//         console.log('Enjoy the weekend');
+//         break;
+//     default:
+//         console.log('not a valid day')
+    
+// }
+//? example of switch case above in else
+// if(day === 'monday'){
+//     console.log('Plan Course Structure');
+//     console.log('Go to coding meetup');
+// } else if(day === 'tuesday'){
+//     console.log('Prepare Vids');
+//     console.log('Hit the gym');
+// }
+// else if(day === 'wednesday' || day === 'thursday'){
+//     console.log('Write code examples');
+// }
+// else if(day === 'friday'){
+//     console.log("Record Videos");
+// }
+// else if(day === 'saturday' || day === 'sunday'){
+//     console.log('Enjoy the weekend');
+// }
+// else{
+//     console.log('Not valid day')
+// }
