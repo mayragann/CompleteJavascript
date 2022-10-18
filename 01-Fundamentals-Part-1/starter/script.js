@@ -153,7 +153,7 @@
 // //! == doesn't have to exact loose equality operator for clean code avoid this as much as possible
 // if(age == "18") console.log("Hello Adult(loose)");
 
-// //! promp function
+// //! prompt function
 // const favorite = Number(prompt("What is your favorite number"));
 // console.log(favorite);
 // console.log(typeof favorite);
@@ -252,3 +252,21 @@
 // if ( 23 > 10){
 //     const str = '23 is bigger'
 // }
+
+//! conditional operator TERNARY OPERATOR
+
+//  const age = 23;
+// // age >= 18 ? console.log("I like to drink wine ") : console.log("I like to drink water"); //condition is true, so first one will be executed
+
+// const drink = age >= 18 ? 'Wine' : 'Water';
+// console.log(drink)
+
+// let drink2;
+// if(age >= 18){
+//     drink2 = 'wine';
+// }
+// else{
+//     drink2 = "water";
+// }
+// console.log(drink2)
+// console.log(`I like to drink ${ age >= 18 ? 'Wine' : 'Water'}`);

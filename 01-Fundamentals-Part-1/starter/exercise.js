@@ -156,3 +156,10 @@ let population = 326;
 //         console.log("Great language too!")
     
 // }
+
+const bill = 275.00
+const tip = bill >= 50 && bill <= 300 ? (15/100) * bill : (20/100) * bill ;
+console.log(`The Bill was: ${bill} and the tip was: ${tip} and the final due is: ${bill + tip}`)
+
+const totalPopulation = population >= 33 ? 'Portugals Population is above average' : 'Portugals popultation is below average';
+console.log(totalPopulation)
