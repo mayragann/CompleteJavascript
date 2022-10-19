@@ -50,3 +50,18 @@
 // }
 // const ageTwo = calcAgeTwo(1993);
 // console.log(ageOne, ageTwo)
+
+// //!Arrow Functions
+// //?same as above, can be returned without the return function only if one paramater
+
+
+// const calcAgeThree = birthYear => 2037 - birthYear;
+// const ageThree = calcAgeThree(1991);
+// console.log(ageThree) 
+
+// const yearsUntilRetirement = (birthYear, firstName) =>{
+//     const age = 2022- birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} retires in ${retirement} years`;
+// }
+// console.log(yearsUntilRetirement(1989, 'Mayra'))

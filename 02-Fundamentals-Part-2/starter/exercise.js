@@ -25,3 +25,6 @@
 // }
 // const chinaPercent = percentOfWorldTwo(1441)
 // console.log(chinaPercent)
+
+// const percentageOfworld = population => (population/7900)*100
+// console.log(percentageOfworld(1441))
