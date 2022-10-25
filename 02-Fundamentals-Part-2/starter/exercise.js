@@ -12,12 +12,12 @@
 
 // //? function declartions vs expressions
 // //declaration first
-function percetageOfWorld(population) {
-  const worldPopulation = 7900;
-  return (population / worldPopulation) * 100;
-}
-const percetageOfWorldOne = percetageOfWorld(1441);
-console.log(percetageOfWorldOne);
+// function percetageOfWorld(population) {
+//   const worldPopulation = 7900;
+//   return (population / worldPopulation) * 100;
+// }
+// const percetageOfWorldOne = percetageOfWorld(1441);
+// console.log(percetageOfWorldOne);
 // //expression
 // const percentOfWorldTwo = function(population){
 //     const worldPopulation = 7900
@@ -34,12 +34,12 @@ console.log(percetageOfWorldOne);
 // 'population', and returns a string like this: 'China has 1441 million people,
 // which is about 18.2% of the world.'
 
-function describePopulation(country, population) {
-  const populationTotal = percetageOfWorld(population);
-  const totalPopulation = `${country} has a total population of ${population} millions which is ${populationTotal}`;
-  return totalPopulation;
-}
-console.log(describePopulation("China", 1441));
+// function describePopulation(country, population) {
+//   const populationTotal = percetageOfWorld(population);
+//   const totalPopulation = `${country} has a total population of ${population} millions which is ${populationTotal}`;
+//   return totalPopulation;
+// }
+// console.log(describePopulation("China", 1441));
 // 2. To calculate the percentage, 'describePopulation' call the
 // 'percentageOfWorld1' you created earlier
 // 3. Call 'describePopulation' with data for 3 countries of your choice
