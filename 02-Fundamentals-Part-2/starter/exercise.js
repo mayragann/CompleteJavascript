@@ -43,3 +43,37 @@
 // 2. To calculate the percentage, 'describePopulation' call the
 // 'percentageOfWorld1' you created earlier
 // 3. Call 'describePopulation' with data for 3 countries of your choice
+
+(96 + 10 + 89)/3
+
+
+// const calcAge = function(birthYear){
+//     return 2037 - birthYear;
+// }
+
+// const yearsUntilRetirement = (birthYear, firstName) =>{
+//     const age = 2022- birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} retires in ${retirement} years`;
+// }
+//standalone function
+const calcAvg = (firstScore,secondScore, thirdScore) => (firstScore + secondScore + thirdScore)/3;
+
+
+const scoreDolphin = calcAvg(44, 23, 71)
+const scoreKoalas = calcAvg(65, 54, 49)
+
+function checkWinner(avgDolphin, avgKoalas){
+
+    if(avgDolphin >= 2 * avgKoalas){
+        console.log(`Dolphins win (${avgDolphin} vs. ${avgKoalas})`);
+        return;
+    }
+    else if(avgKoalas >= 2 * avgDolphin){
+        console.log(`Koalas win (${avgKoalas} vs. ${avgDolphin})`);
+    }
+    else{
+        console.log(`no one wins`)
+    }
+}
+console.log(checkWinner(scoreDolphin, scoreKoalas));
