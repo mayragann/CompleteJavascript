@@ -57,23 +57,23 @@
 //     return `${firstName} retires in ${retirement} years`;
 // }
 //standalone function
-const calcAvg = (firstScore,secondScore, thirdScore) => (firstScore + secondScore + thirdScore)/3;
+// const calcAvg = (firstScore,secondScore, thirdScore) => (firstScore + secondScore + thirdScore)/3;
 
 
-const scoreDolphin = calcAvg(44, 23, 71)
-const scoreKoalas = calcAvg(65, 54, 49)
+// const scoreDolphin = calcAvg(44, 23, 71)
+// const scoreKoalas = calcAvg(65, 54, 49)
 
-function checkWinner(avgDolphin, avgKoalas){
+// function checkWinner(avgDolphin, avgKoalas){
 
-    if(avgDolphin >= 2 * avgKoalas){
-        console.log(`Dolphins win (${avgDolphin} vs. ${avgKoalas})`);
-        return;
-    }
-    else if(avgKoalas >= 2 * avgDolphin){
-        console.log(`Koalas win (${avgKoalas} vs. ${avgDolphin})`);
-    }
-    else{
-        console.log(`no one wins`)
-    }
-}
-console.log(checkWinner(scoreDolphin, scoreKoalas));
+//     if(avgDolphin >= 2 * avgKoalas){
+//         console.log(`Dolphins win (${avgDolphin} vs. ${avgKoalas})`);
+//         return;
+//     }
+//     else if(avgKoalas >= 2 * avgDolphin){
+//         console.log(`Koalas win (${avgKoalas} vs. ${avgDolphin})`);
+//     }
+//     else{
+//         console.log(`no one wins`)
+//     }
+// }
+// console.log(checkWinner(scoreDolphin, scoreKoalas));
